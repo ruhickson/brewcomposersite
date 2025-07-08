@@ -570,3 +570,431 @@ html {
     max-width: 600px;
     margin: 0 auto;
 } 
+
+/* Team Page Styles */
+.team-member {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    backdrop-filter: blur(10px);
+}
+
+.member-info h2 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.member-title {
+    color: #b8c5d6;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.experience-section {
+    margin-top: 2rem;
+}
+
+.experience-section h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.consulting-history {
+    margin: 2rem 0;
+}
+
+.consulting-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-left: 4px solid #4CAF50;
+}
+
+.consulting-item h4 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.consulting-item p {
+    color: #b8c5d6;
+    margin: 0.5rem 0;
+}
+
+.consulting-metrics {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.consulting-metrics h4 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.consulting-metrics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.consulting-metrics li {
+    color: #b8c5d6;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Solution Page Styles */
+.solution-content {
+    margin-top: 2rem;
+}
+
+.solution-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.feature h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    color: #b8c5d6;
+}
+
+.cost-savings-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+.cost-savings-section h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.savings-example {
+    margin: 2rem 0;
+}
+
+.yield-table {
+    margin: 1.5rem 0;
+    overflow-x: auto;
+}
+
+.yield-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.yield-table th,
+.yield-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.yield-table th {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-weight: 600;
+}
+
+.yield-table td {
+    color: #b8c5d6;
+}
+
+.profit-highlight {
+    background: rgba(76, 175, 80, 0.2);
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: #4CAF50;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.savings-note {
+    color: #b8c5d6;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.key-benefits {
+    margin-top: 2rem;
+}
+
+.key-benefits h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.key-benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.key-benefits li {
+    color: #b8c5d6;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Market Page Styles */
+.market-insights {
+    margin: 3rem 0;
+}
+
+.insight-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.insight-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.insight-item h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.insight-item p {
+    color: #b8c5d6;
+}
+
+.target-segments {
+    margin: 3rem 0;
+}
+
+.segment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.segment-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.segment-card h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.segment-card p {
+    color: #b8c5d6;
+}
+
+/* Pricing Page Styles */
+.pricing-content {
+    margin-top: 2rem;
+}
+
+.consulting-services {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+.service-tiers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-tier {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1.5rem;
+    border-left: 4px solid #4CAF50;
+}
+
+.service-tier h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.tier-details p {
+    color: #b8c5d6;
+    margin: 0.5rem 0;
+}
+
+.platform-pricing {
+    margin: 3rem 0;
+}
+
+.pricing-tiers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.pricing-tier {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.pricing-tier:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-tier.featured {
+    border: 2px solid #4CAF50;
+    transform: scale(1.05);
+}
+
+.pricing-tier h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 1rem 0;
+}
+
+.pricing-tier p {
+    color: #b8c5d6;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-tier ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.pricing-tier li {
+    color: #b8c5d6;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pricing-tier li:before {
+    content: "✓";
+    color: #4CAF50;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.roi-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+.roi-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.roi-example {
+    background: rgba(76, 175, 80, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.roi-example h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.roi-example p {
+    color: #b8c5d6;
+    margin: 0.5rem 0;
+}
+
+.roi-benefits h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.roi-benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.roi-benefits li {
+    color: #b8c5d6;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.roi-benefits li:before {
+    content: "→";
+    color: #4CAF50;
+    margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .solution-features,
+    .insight-content,
+    .segment-grid,
+    .service-tiers,
+    .pricing-tiers,
+    .roi-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-tier.featured {
+        transform: none;
+    }
+    
+    .yield-table {
+        font-size: 0.9rem;
+    }
+    
+    .yield-table th,
+    .yield-table td {
+        padding: 0.75rem;
+    }
+} 

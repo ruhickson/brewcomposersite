@@ -593,7 +593,7 @@ html {
 }
 
 .member-title {
-    color: #b8c5d6;
+    color: #222;
     font-size: 1.1rem;
     margin-bottom: 2rem;
 }
@@ -625,7 +625,7 @@ html {
 }
 
 .consulting-item p {
-    color: #b8c5d6;
+    color: #222;
     margin: 0.5rem 0;
 }
 
@@ -647,7 +647,7 @@ html {
 }
 
 .consulting-metrics li {
-    color: #b8c5d6;
+    color: #222;
     margin: 0.5rem 0;
     padding: 0.5rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -725,7 +725,7 @@ html {
 }
 
 .yield-table td {
-    color: #b8c5d6;
+    color: #222;
 }
 
 .profit-highlight {
@@ -856,7 +856,7 @@ html {
 }
 
 .tier-details p {
-    color: #b8c5d6;
+    color: #222;
     margin: 0.5rem 0;
 }
 
